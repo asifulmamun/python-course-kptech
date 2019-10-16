@@ -76,7 +76,7 @@ while CheckEvenOrOdd<=rangeEvenOrOdd:
 	CheckEvenOrOdd +=1
 
 '''
-	------------ Q.5 ---------
+	------------ Q.5 -----
 	While loop Range = 10
 '''
 # For Loop
