@@ -84,9 +84,5 @@ print('\n\n While Loop range 10: \n')
 for forLoop in range(1,11):
 	print("Number :", forLoop)
 
-
 print('\n\n Program By - Al Mamun (@asifulmamun) \n\n')
-
-"""
----------------------- END @asifulmamun ----------------------
-"""
+# ---------------------- END @asifulmamun ----------------------
