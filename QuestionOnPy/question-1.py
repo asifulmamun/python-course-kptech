@@ -3,7 +3,7 @@
 """
 #Design or Space
 print("\n\n")
-# Get data from Keabord only string
+# Get data from Keabord only string with error handle
 inputA = float(input("Enter 1st number for mathematics operations: "))
 
 #Design or Space
