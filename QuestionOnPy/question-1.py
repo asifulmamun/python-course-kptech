@@ -14,27 +14,30 @@ inputB = float(input("Enter 2nd number for mathematics operations: "))
 #Design or Space
 print("\n\n")
 print(" ------------- Mathmatical Operations Results given below ------------- ")
-print(" ---------------------------  By Al Mamun  ---------------------------- ")
-print(" --------------------------  @asifulmamun  --------------------------- ")
 #Design or Space
 print("\n\n")
-
-
-
 
 
 # Addition Operation
 print('1st Number + 2nd Number = ', inputA+inputB, "\n")
 
 # Sub Operation
-print('1st Number - 2nd Number = ', inputA-inputB, "\n")
+if inputA>inputB:
+	print('1st Number - 2nd Number = ', inputA-inputB, "\n")
+else:
+	print('2n Number - 1st Number = ', inputB-inputA, "   - 2nd Number Subtraction Because this second number is bigger then from 1st Number\n")
 
 # Mult Operation
 print('1st Number * 2nd Number = ', inputA*inputB, "\n")
 
 # Div Operation
-print('1st Number / 2nd Number = ', inputA/inputB, "\n")
+if inputA>inputB:
+	print('1st Number / 2nd Number = ', inputA/inputB, "\n")
+else:
+	print('2n Number / 1st Number = ', inputB/inputA, "   - 2nd Number Divided Because this second number is bigger then from 1st Number\n")
 
 
 #Design or Space
 print("\n\n")
+print(" ---------------------------  By Al Mamun  ---------------------------- ")
+print(" --------------------------  @asifulmamun  --------------------------- ")
