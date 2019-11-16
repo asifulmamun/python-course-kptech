@@ -1,22 +1,9 @@
 """
 	1. Take 2 input, calculate in all mathematics operations.
 """
-#Design or Space
-print("\n\n")
-# Get data from Keabord only string with error handle
+
 inputA = float(input("Enter 1st number for mathematics operations: "))
-
-#Design or Space
-print("\n\n")
-# Get data from Keabord with string and convert in inline direct and pritn  them
 inputB = float(input("Enter 2nd number for mathematics operations: "))
-
-#Design or Space
-print("\n\n")
-print(" ------------- Mathmatical Operations Results given below ------------- ")
-#Design or Space
-print("\n\n")
-
 
 # Addition Operation
 print('1st Number + 2nd Number = ', inputA+inputB, "\n")
@@ -35,9 +22,3 @@ if inputA>inputB:
 	print('1st Number / 2nd Number = ', inputA/inputB, "\n")
 else:
 	print('2n Number / 1st Number = ', inputB/inputA, "   - 2nd Number Divided Because this second number is bigger then from 1st Number\n")
-
-
-#Design or Space
-print("\n\n")
-print(" ---------------------------  By Al Mamun  ---------------------------- ")
-print(" --------------------------  @asifulmamun  --------------------------- ")
