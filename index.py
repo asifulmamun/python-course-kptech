@@ -1,2 +1,0 @@
-#!C:/python/python.exe
-
