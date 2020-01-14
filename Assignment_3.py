@@ -1,6 +1,6 @@
 """
     @Assignment-3
-    @Victory Day Cooding Compettition(16th December 2019)
+    @Victory Day Cooding Compettition(16th December, 2019)
 """
 
 
@@ -36,5 +36,5 @@ for motorCycleLists in motorCycleListAppended:
 # motorCycleListReverse.reverse() # Reverse
 # print(motorCycleListReverse)
 
-# honda = motorCycleList[0:3]
-# print(honda) # Why printed reverse 3
+honda = motorCycleList[0:3]
+print(honda) # Why printed reverse 3
