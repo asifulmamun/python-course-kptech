@@ -24,8 +24,11 @@ users = {
 
 # print(users['mamun']['Age'])
 
-for key in users.keys():
-    print(key)
+for keys, values in users.items():
+    # print(keys)
     # print(values)
-    # for mykeys, myvalues in values.item():
-    #     print(mykeys)
+    # print(keys, values['Name'], values['Age']) # with specific keys name, age it's values
+
+    for nextkeys, nextvalues in values.items():
+        print(nextkeys) # print 1st dictionary keys valus under 2nd dictionary keys
+        print(nextvalues) # print 1st dictionary keys valus under 2nd dictionary keys values
