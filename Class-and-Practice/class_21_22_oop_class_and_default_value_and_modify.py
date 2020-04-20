@@ -53,13 +53,13 @@
 
 
 
-# Default Value and modify them when call
-class Myclass():
-    def __init__(self, name):
-        self.name = name
-        self.area = 'kg'
+# # Default Value and modify them when call
+# class Myclass():
+#     def __init__(self, name):
+#         self.name = name
+#         self.area = 'kg'
 
-myObject = Myclass('mamun') # not need
-print(myObject.area)
-myObject.area = 'Kishoregaj'
-print(myObject.area)
+# myObject = Myclass('mamun') # not need
+# print(myObject.area)
+# myObject.area = 'Kishoregaj'
+# print(myObject.area)
