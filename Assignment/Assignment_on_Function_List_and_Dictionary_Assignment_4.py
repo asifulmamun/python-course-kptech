@@ -13,8 +13,10 @@ def city_function(city_name, cuontry_name):
         'city' : city_name,
         'country' : cuontry_name
     }
+    
     for key, value in globe.items():
         print(key, ': ', value)
+
 city_function('Dhaka', 'Bangladesh')
 
 
